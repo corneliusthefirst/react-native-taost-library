@@ -11,11 +11,11 @@ npm install react-native-taost-library
 ## Usage
 
 ```js
-import { multiply } from 'react-native-taost-library';
+import { multiply, showToast } from 'react-native-taost-library';
 
 // ...
-
 const result = await multiply(3, 7);
+showToast("toast text")
 ```
 
 ## Contributing

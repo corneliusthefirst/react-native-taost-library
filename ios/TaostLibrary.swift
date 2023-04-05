@@ -6,7 +6,7 @@ class TaostLibrary: NSObject {
     resolve(a*b)
   }
 
-  @objc(showTaost:withResolver:withRejecter:)
+  @objc(showTaost:)
   func showTaost(message: String) {
     DispatchQueue.main.async {
       let alert = UIAlertController(title: "Taost", message: message, preferredStyle: .alert)
