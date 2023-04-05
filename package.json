@@ -1,6 +1,6 @@
 {
   "name": "react-native-taost-library",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A toast library for react native using native toast for android and ios",
   "main": "lib/commonjs/index",
   "module": "lib/module/index",

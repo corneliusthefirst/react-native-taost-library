@@ -21,6 +21,6 @@ export function multiply(a: number, b: number): Promise<number> {
   return TaostLibrary.multiply(a, b);
 }
 
-export function showToast(message: string): Promise<void> {
+export function showToast(message: string): void {
   return TaostLibrary.showToast(message);
 }
