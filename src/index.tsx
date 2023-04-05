@@ -20,3 +20,7 @@ const TaostLibrary = NativeModules.TaostLibrary
 export function multiply(a: number, b: number): Promise<number> {
   return TaostLibrary.multiply(a, b);
 }
+
+export function showToast(message: string): Promise<void> {
+  return TaostLibrary.showToast(message);
+}
